@@ -1,0 +1,18 @@
+{
+  "name": "practice-api-node_express_mongodb",
+  "version": "1.0.0",
+  "description": "Simple api",
+  "main": "index.js",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "dev": "NODE_ENV=development nodemon index.js",
+    "start": "node index.js"
+  },
+  "author": "Pablo Hernandez",
+  "license": "MIT"
+}
